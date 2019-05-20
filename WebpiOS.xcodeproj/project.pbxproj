@@ -966,11 +966,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = XMLAR97A7L;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/WebpiOS/webp",
-				);
-				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/WebpiOS/webp\"";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/WebpiOS/webp\"/**";
 				INFOPLIST_FILE = WebpiOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -991,11 +988,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = XMLAR97A7L;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/WebpiOS/webp",
-				);
-				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/WebpiOS/webp\"";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/WebpiOS/webp\"/**";
 				INFOPLIST_FILE = WebpiOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (

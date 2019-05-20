@@ -70,7 +70,7 @@ Pod::Spec.new do |spec|
 
   spec.requires_arc = true
   
-  spec.xcconfig = { "HEADER_SEARCH_PATHS" =>'"${PROJECT_DIR}/.."/**' }
+  spec.xcconfig = { "USER_HEADER_SEARCH_PATHS" =>'"${PROJECT_DIR}/.."/**' }
 
   spec.dependency "SDWebImage"
 

@@ -16,13 +16,13 @@
 
 #import <Accelerate/Accelerate.h>
 
-#include "src/webp/format_constants.h"
-#include "src/webp/mux.h"
-#include "src/webp/types.h"
-#include "src/webp/demux.h"
-#include "src/webp/mux_types.h"
-#include "src/webp/encode.h"
-#include "src/webp/decode.h"
+#import "src/webp/format_constants.h"
+#import "src/webp/mux.h"
+#import "src/webp/types.h"
+#import "src/webp/demux.h"
+#import "src/webp/mux_types.h"
+#import "src/webp/encode.h"
+#import "src/webp/decode.h"
 
 #ifndef SD_LOCK
 #define SD_LOCK(lock) dispatch_semaphore_wait(lock, DISPATCH_TIME_FOREVER);

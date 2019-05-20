@@ -11,7 +11,7 @@
 //
 // Author: Skal (pascal.massimino@gmail.com)
 
-#include "yuv.h"
+#include "src/dsp/yuv.h"
 
 #if defined(WEBP_USE_SSE41)
 

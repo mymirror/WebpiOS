@@ -967,7 +967,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = XMLAR97A7L;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/WebpiOS/webp\"/**";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = WebpiOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -977,6 +977,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.BloodLink.BloodLink;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = xzyFirst;
+				SYSTEM_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/WebpiOS/webp\"";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -989,7 +990,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = XMLAR97A7L;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/WebpiOS/webp\"/**";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = WebpiOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -999,6 +1000,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.BloodLink.BloodLink;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = xzyFirst;
+				SYSTEM_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/WebpiOS/webp\"";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

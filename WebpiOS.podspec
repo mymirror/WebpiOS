@@ -63,10 +63,10 @@ Pod::Spec.new do |spec|
 
 
 
-  spec.source       = { :git => "https://github.com/mymirror/WebpiOS.git", :tag => "#{spec.version}" }
+  spec.source = { :git => "https://github.com/mymirror/WebpiOS.git", :tag => "#{spec.version}" }
 
 
-  spec.source_files  = "WebpiOS/webp/*.{h,m}","WebpiOS/**/**/**/*.{c,h}"
+  spec.source_files  = "WebpiOS/webp/*.{h,m}","WebpiOS/webp/src/**/*.{c,h}"
 
   spec.requires_arc = true
 

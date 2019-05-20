@@ -70,7 +70,7 @@ Pod::Spec.new do |spec|
 
   spec.requires_arc = true
   
-  spec.xcconfig = { "HEADER_SEARCH_PATHS" =>"$(SRCROOT)/WebpiOS/","HEADER_SEARCH_PATHS" =>"$(inherited)" }
+  spec.xcconfig = { "HEADER_SEARCH_PATHS" =>"${PROJECT_DIR}/.."/** }
 
   spec.dependency "SDWebImage"
 

@@ -69,6 +69,8 @@ Pod::Spec.new do |spec|
   spec.source_files  = "WebpiOS/webp/*.{h,m}","WebpiOS/webp/src/**/*.{c,h}"
 
   spec.requires_arc = true
+  
+  spec.requires_arc.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SRCROOT)/WebpiOS/webp/**" }
 
   spec.dependency "SDWebImage"
 

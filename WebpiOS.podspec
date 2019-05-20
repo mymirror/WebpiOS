@@ -56,7 +56,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios
 
   #  When using multiple platforms
-  # spec.ios.deployment_target = "5.0"
+  spec.ios.deployment_target = "8.0"
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
@@ -70,7 +70,7 @@ Pod::Spec.new do |spec|
 
   spec.requires_arc = true
   
-  spec.xcconfig = { "USER_HEADER_SEARCH_PATHS" =>'"${PROJECT_DIR}/.."/**' }
+  spec.xcconfig = { "USER_HEADER_SEARCH_PATHS" =>'"${PROJECT_DIR}/webp/src/.."/**' }
 
   spec.dependency "SDWebImage"
 

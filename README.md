@@ -22,6 +22,9 @@ pod 'WebpiOS'
 
 @end
 
+图片转换工具下载地址
+https://github.com/mymirror/webp-.git
+
 such as:
 
 UIImage *img = [UIImage sd_imageWithWebPData:[NSData dataWithContentsOfFile:[[NSBundle mainBundle]pathForResource:@"bg_third@3x" ofType:@"webp"]]];

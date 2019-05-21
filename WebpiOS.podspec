@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "WebpiOS"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "show webp image"
 
   # This description is used to generate tags and improve search results.

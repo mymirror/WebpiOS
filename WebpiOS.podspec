@@ -66,11 +66,11 @@ Pod::Spec.new do |spec|
   spec.source = { :git => "https://github.com/mymirror/WebpiOS.git", :tag => "#{spec.version}" }
 
 
-  spec.source_files  = "WebpiOS/webp/*.{h,m}","WebpiOS/webp/src/**/*.{c,h}"
+  spec.source_files  = "WebpiOS/webp/*.{h,m}"
 
   spec.requires_arc = true
   
-  spec.vendored_frameworks = "WebpiOS/webp/libwebp.framework"
+  spec.vendored_frameworks = "WebpiOS/webp/*.framework"
   
   spec.dependency "SDWebImage"
 

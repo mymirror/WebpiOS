@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "WebpiOS"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "show webp image"
 
   # This description is used to generate tags and improve search results.
@@ -70,8 +70,8 @@ Pod::Spec.new do |spec|
 
   spec.requires_arc = true
   
-  spec.xcconfig = { "USER_HEADER_SEARCH_PATHS" =>'"${PROJECT_DIR}/webp/src/.."/**' }
-
+  spec.vendored_frameworks = "WebpiOS/webp/libwebp.framework"
+  
   spec.dependency "SDWebImage"
 
 end

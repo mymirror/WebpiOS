@@ -14,7 +14,7 @@ pod 'WebpiOS'
 
 
 导入头文件
-#import "webp/UIImage+WebP.h"
+#import "UIImage+WebP.h"
 
 @interface UIImage (WebP)
 

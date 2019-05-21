@@ -17,7 +17,7 @@
 		35AB652222938B3600257D8D /* icon_nearby@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35AB652122938B3600257D8D /* icon_nearby@3x.png */; };
 		35AB652422938BF500257D8D /* bg_third@3x.webp in Resources */ = {isa = PBXBuildFile; fileRef = 35AB652322938BF400257D8D /* bg_third@3x.webp */; };
 		35AB652622938C0000257D8D /* bg_third@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35AB652522938C0000257D8D /* bg_third@3x.png */; };
-		35AB652A2293920100257D8D /* libwebp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35AB65292293920100257D8D /* libwebp.framework */; };
+		35AB65322293AF7A00257D8D /* libwebp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35AB65312293AF7A00257D8D /* libwebp.framework */; };
 		F41B30AEBC0C82B5B17675F5 /* Pods_WebpiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD7E43FBEAE0C54EFAB8100E /* Pods_WebpiOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,7 +40,7 @@
 		35AB652122938B3600257D8D /* icon_nearby@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_nearby@3x.png"; sourceTree = "<group>"; };
 		35AB652322938BF400257D8D /* bg_third@3x.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "bg_third@3x.webp"; sourceTree = "<group>"; };
 		35AB652522938C0000257D8D /* bg_third@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_third@3x.png"; sourceTree = "<group>"; };
-		35AB65292293920100257D8D /* libwebp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libwebp.framework; sourceTree = "<group>"; };
+		35AB65312293AF7A00257D8D /* libwebp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libwebp.framework; sourceTree = "<group>"; };
 		FD7E43FBEAE0C54EFAB8100E /* Pods_WebpiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WebpiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -49,7 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35AB652A2293920100257D8D /* libwebp.framework in Frameworks */,
+				35AB65322293AF7A00257D8D /* libwebp.framework in Frameworks */,
 				F41B30AEBC0C82B5B17675F5 /* Pods_WebpiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -97,7 +97,7 @@
 		35AB5CF6228D6CD900257D8D /* webp */ = {
 			isa = PBXGroup;
 			children = (
-				35AB65292293920100257D8D /* libwebp.framework */,
+				35AB65312293AF7A00257D8D /* libwebp.framework */,
 				35AB5CF9228D6D3100257D8D /* ImageWebPCoder.h */,
 				35AB5CFA228D6D3100257D8D /* ImageWebPCoder.m */,
 				35AB5E142292492E00257D8D /* UIImage+WebP.h */,
@@ -386,6 +386,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WebpiOS/webp",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.BloodLink.BloodLink;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = xzyFirst;
@@ -413,6 +417,10 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WebpiOS/webp",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.BloodLink.BloodLink;
 				PRODUCT_NAME = "$(TARGET_NAME)";
